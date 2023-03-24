@@ -1,21 +1,10 @@
 public class ComputerRunner {
     public static void main(String[] args) {
 
-        Computer computer1 = new Computer(12, 256);
-        System.out.println(computer1 instanceof Computer);
-        Desktop desktop1 = new Desktop(18, 512, true);
-        System.out.println(desktop1 instanceof Desktop);
-        Laptop laptop1 = new Laptop(14, 128);
-        System.out.println(laptop1 instanceof Laptop);
-        Tablet tablet1 = new Tablet(9, 64, false);
-        System.out.println(tablet1 instanceof Tablet);
-
-        System.out.println(desktop1 instanceof Computer);
-        System.out.println(laptop1 instanceof Computer);
-        System.out.println(tablet1 instanceof Computer);
-        System.out.println(computer1 instanceof Desktop);
-        System.out.println(computer1 instanceof Laptop);
-        System.out.println(computer1 instanceof Tablet);
+        Laptop myLappy = new Laptop(4 ,5);
+        myLappy.installOperatingSystem();
+        myLappy.calibrateTrackpad();
+        myLappy.printInfo();
 
 
     }

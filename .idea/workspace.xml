@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e92276-e196-4edb-8de4-5b7330e2c878" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ComputerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComputerRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desktop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GamingDesktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tablet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tablet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="ComputerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComputerRunner" />
+      <module name="SenayU9T1Lab2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ComputerRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

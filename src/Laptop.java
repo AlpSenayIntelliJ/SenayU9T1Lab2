@@ -5,8 +5,16 @@ public class Laptop extends Computer {
         super(screenSize, memory);
         trackPadCalibrated = false; // default value
     }
+    @Override
+    public void installOperatingSystem() {
+        System.out.println("installing OS for your laptop...");
+    }
 
-
+    @Override
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Trackpad calibrated? " + trackPadCalibrated);
+    }
 
     public void calibrateTrackpad() {
         if (!trackPadCalibrated) {
